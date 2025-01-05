@@ -4,7 +4,6 @@ This is a simple linux script that allow the player to do tasks while they are A
 This **does not require the minecraft window to be in focus**. You can be working on something else while you are doing something in Minecraft assuming your computer can handle the load. 
 
 I decided to extend an [already existing script](http://web.archive.org/web/20240119180244/https://www.reddit.com/r/Minecraft/comments/bu4gka/linux_autoclicker_bash_script_useful_for_afk) that worked fine, but was a bit basic. I found the program [XAHK](https://github.com/histefanhere/XAHK) very good except it did not support linux, hence this script was made. Hopefully it is helpful, if there are any other farming mechanics that can be added, do it yourself (the code is straightforward) or let me know and I'll see what I can do. 
-# Modified by Owen Daigle) that worked, but was basic 
 
 ### Fishing
 This just simulates holding down the right click button. Make sure you have a fishing rod (ideally with mending) in your main hand. 
