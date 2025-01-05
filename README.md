@@ -10,7 +10,7 @@ This just simulates holding down the right click button. Make sure you have a fi
 
 <img src="resources/fishing.gif" alt="drawing" style="width:100%;"/>
 
-### Fishing
+### Mob Farming
 This just simulates clicking the attack button (so make sure you have a sword in your hand) and then eats from your offhand (so you don't die from hunger).
 
 <img src="resources/mob-farming.gif" alt="drawing" style="width:100%;"/>
