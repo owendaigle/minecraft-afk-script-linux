@@ -9,12 +9,12 @@ I decided to extend an [already existing script](http://web.archive.org/web/2024
 ### Fishing
 This just simulates holding down the right click button. Make sure you have a fishing rod (ideally with mending) in your main hand. 
 
-<img src="resources/fishing.gif" alt="drawing" style="width:50%;"/>
+<img src="resources/fishing.gif" alt="drawing" style="width:100%;"/>
 
 ### Fishing
 This just simulates clicking the attack button (so make sure you have a sword in your hand) and then eats from your offhand (so you don't die from hunger).
 
-<img src="resources/mob-farming.gif" alt="drawing" style="width:50%;"/>
+<img src="resources/mob-farming.gif" alt="drawing" style="width:100%;"/>
 
 # Usage
 Ensure that `xdotool` is installed. This is often in the default repositories. 
