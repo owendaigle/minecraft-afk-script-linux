@@ -10,6 +10,17 @@ function fishing() {
   xdotool mousedown --window $window_id 3
 }
 
+# afk fishing in high latency env
+function fishing_high_latency() {
+  while true
+  do
+    echo "Farming (Press CTRL+C to stop)"
+    echo "Script ending"
+    xdotool click --window $window_id 3
+    sleep 1.2
+  done
+}
+
 # mob farming routine
 function mobs() {
   while true
@@ -55,7 +66,7 @@ if [ $# -ne 0 ]; then #args given so get mode from them
   echo "Running in $mode mode."
 else # no args given so ask user
   welcome
-  select mode in "AFK Fishing" "Mob Farming" "Help" "Quit" 
+  select mode in "AFK Fishing" "AFK Fishing (High Latency Network)" "Mob Farming" "Help" "Quit" 
   do
     break
   done
@@ -65,6 +76,9 @@ fi
 case $mode in
     "AFK Fishing" | fish)
       fishing
+    ;;
+    "AFK Fishing (High Latency Network)" | fish_hl)
+      fishing_high_latency
     ;;
     "Mob Farming" | mobfarm)
       mobs

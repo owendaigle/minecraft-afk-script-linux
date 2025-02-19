@@ -10,6 +10,9 @@ This just simulates holding down the right click button. Make sure you have a fi
 
 <img src="resources/fishing.gif" alt="drawing" style="width:100%;"/>
 
+#### Fishing (High Latency)
+This is the same idea as regular fishing mode, but it works in networks with high latency by waiting between each mousepress.       
+
 ### Mob Farming
 This just simulates clicking the attack button (so make sure you have a sword in your hand) and then eats from your offhand (so you don't die from hunger).
 
@@ -50,6 +53,7 @@ MC-AFK.sh <mode>
 Mode can be either:
 
 - `fish` for AFK fishing
+- `fish_hl` for AFK fishing in high latency environment
 - `mobfarm` for AFK mob farming
 
 # Requirements
