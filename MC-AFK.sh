@@ -15,7 +15,6 @@ function fishing_high_latency() {
   while true
   do
     echo "Farming (Press CTRL+C to stop)"
-    echo "Script ending"
     xdotool click --window $window_id 3
     sleep 1.2
   done
