@@ -15,8 +15,12 @@ function fishing_high_latency() {
   while true
   do
     echo "Farming (Press CTRL+C to stop)"
+    xdotool mousedown --window $window_id 1 # there is this bug in xdotool where if I hold left click in a different program while this is running, it will send that holding left click to the window causing minecraft to break the block causing problems
+    xdotool mouseup --window $window_id 1 # This resets the holding caused by xdotool. Works as long as block takes more than 0.6 seconds to break.
+    sleep 0.6
     xdotool click --window $window_id 3
-    sleep 1.2
+    sleep 0.6
+
   done
 }
 
